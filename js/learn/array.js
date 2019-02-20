@@ -52,4 +52,21 @@ let arr2 = Array.from(arr1);
 let a = [1, 5, 10, 15].find(function(value, index, arr) {
     return value > 9;
 }) // 10
-console.log(a);
+// console.log(a);
+
+// for (const index of ['a', 'b'].keys()) {
+//     console.log(index);
+// }
+
+let letter = ['a', 'b', 'c'];
+let entries = letter.entries();
+// console.log(entries.next().value); // [0, 'a']
+// console.log(entries.next().value); // [1, 'b']
+// console.log(entries.next().value); // [2, 'c']
+
+// console.log( [NaN].includes(NaN));
+
+// let arr3 = [1, 2, [3, 4]];
+// console.log(arr3.flat(), arr3);
+
+
